@@ -14,6 +14,7 @@ var TodoComponent = createReactClass({
       <p><strong>My Cat: </strong>{this.props.pepper.name}</p>
       <p><strong>My Cat's Breed: </strong>{this.props.pepper.breed}</p>
       <p><strong>My Cat's Attributes: </strong>{this.props.pepper.attributes}</p>
+      
       </div>
     );
   }
